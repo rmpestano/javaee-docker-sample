@@ -28,7 +28,7 @@ RUN update-alternatives --install /usr/bin/javac javac /opt/java/jdk1.8.0_25/bin
 RUN update-alternatives --install /usr/bin/java java /opt/java/jdk1.8.0_25/bin/java 100
 
  
-# RUN update-alternatives --display java
+RUN update-alternatives --display java
 
 RUN java -version
 
